@@ -1,0 +1,30 @@
+{
+  "name": "careeros-ai-starter",
+  "version": "0.1.0",
+  "description": "Build an evidence-based professional profile, evaluate job fit, and prepare truthful STAR stories.",
+  "author": {
+    "name": "Andrés Castañaza",
+    "url": "https://andres.castanaza.com"
+  },
+  "homepage": "https://andres.castanaza.com/ai-career-systems",
+  "repository": "https://github.com/aplus89/careeros-ai-starter",
+  "license": "MIT",
+  "keywords": ["career", "job-search", "resume", "interview", "latam"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CareerOS AI Starter",
+    "shortDescription": "Turn real experience into stronger applications.",
+    "longDescription": "A bilingual, privacy-first career workflow for building a master profile, estimating job fit, and preparing interview stories without inventing experience or metrics.",
+    "developerName": "Andrés Castañaza",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://andres.castanaza.com/ai-career-systems",
+    "privacyPolicyURL": "https://github.com/aplus89/careeros-ai-starter/blob/main/PRIVACY.md",
+    "defaultPrompt": [
+      "Build my master professional profile.",
+      "Compare my profile with this job.",
+      "Turn my experience into STAR stories."
+    ],
+    "brandColor": "#3E8EF7"
+  }
+}

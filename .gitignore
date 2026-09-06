@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+# Keep personal career data out of this public repository.
+my-profile/
+private/
+*.private.md
+*.private.pdf
+*.private.docx

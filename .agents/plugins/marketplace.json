@@ -1,0 +1,20 @@
+{
+  "name": "careeros-ai",
+  "interface": {
+    "displayName": "CareerOS AI"
+  },
+  "plugins": [
+    {
+      "name": "careeros-ai-starter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/careeros-ai-starter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
